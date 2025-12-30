@@ -39,3 +39,9 @@ values
 (1, 101, '2024-09-15', NULL),
 (1, 102, '2024-09-15', '2024-09-25'),
 (2, 103, '2024-09-18', NULL);
+-- update Borrow set return_date = '2024-10-01' where reader_id = 1;
+-- update Book set publish_year = 2023 where publish_year >= 2021;
+-- delete from Borrow where borrow_date < '2024-09-18' and reader_id >0;
+select *from Reader;
+select *from Book;
+select *from Borrow;
